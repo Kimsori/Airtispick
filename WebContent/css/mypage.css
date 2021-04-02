@@ -1,0 +1,94 @@
+#name {
+	cursor:default;
+}
+table {
+    background-color: #d8d7d7;
+    width: 650px;
+    height: 650px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse:separate;
+    border:solid black 1px;
+    border-radius:6px;
+   cursor: pointer;
+}
+
+th {
+    border-left:solid black 1px;
+    border-top:solid black 1px;
+
+}
+
+
+th:nth-child(1) {
+     border-left: none;
+
+   }
+
+
+#name {
+    font-size: 25px;
+}
+
+.page{
+  margin-top: 20px;
+}
+
+.tab-content{
+  margin-top: -17px;
+  border:solid black 1px;
+  padding: 20px;
+  border-radius:0px 0px 10px 10px;
+}
+
+.page {text-align: center;}
+
+
+
+/**자주하는질문*/
+#accordionExample{
+  margin-top:20px;
+  border-color: #5c5c5c;
+}
+
+#accordionExample .card-header{
+  background-color: white;
+}
+#accordionExample a{
+  color: black!important;
+  font-weight: bold;
+  font-size: 16px;
+}
+#accordionExample i{
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #db312e;
+}
+
+#accordionExample button:hover, .card-body:hover{
+  text-decoration: none;
+}
+
+#accordionExample .card-body{
+  padding:35px;
+}
+
+
+
+.card-deck {
+    font-family: 'Nanum Gothic'; 
+    font-size:12px;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    padding-bottom:2rem;
+}
+.card-title{margin: 10px 0 10px 10px;}
+.card-body{margin: 0; padding: 0;}
+.card-body > a {margin: 10px 0 10px 10px;}
+.card:hover {box-shadow:0 4px 10px 0 rgba(0,0,0,0.2)}
+
+.progress{height:5px; border-radius: 0px; margin: 10px 0;}
+.card-sub {text-align: center; margin-bottom: 10px;}
+.card-sub span {padding-right: 5px;}

@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+}    
+
+.content{
+    max-width:1280px;
+    margin:auto;
+    padding-bottom: 100px;
+    margin-top: 2rem;
+}
+
+.container{
+    max-width:980px;
+    padding-top: 20px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#artispick{
+	text-decoration:none;
+	color:black;
+}
+
+#top {
+    background-color: #DB2F2F;
+    height:30px;
+}
+
+#top > a {
+    
+    float: right;
+    color: white;
+    font-size: 12px;
+    padding: 5px 10px;
+    
+    
+}
+header {
+    font-family: 'Alegreya Sans';
+    /* font-size: 60px; */
+    text-align: center;
+    padding: 15px 0;
+}
+
+#artispick{
+	color:black; 
+	text-decoration:none; 
+}
+.navbar {
+    border-top: 1px solid #848484;
+    border-bottom: 1px solid #848484;   
+    background-color: white;
+}
+
+.navi > li {padding: 0 20px;}
+.navi > li >  a{ color: black!important;}
+
+.navi li div.dropdown-menu {display: none;}
+.navi li.dropdown:hover .dropdown-menu {display: block;}
+
+.search {
+    height: 30px;
+    /* width: 50%!important; */
+}
+
+/* 푸터 */
+.address{font-size: 12px; padding-bottom: 10px;}
+.col {margin-top: 20px;}
+.col i{font-size: 2.5rem; padding-right: 10px;}
+.col a {font-size: 14px; color: darkgray;}
+
+footer{background-color: rgb(212, 212, 212);}
+.footer{
+    max-width: 980px;margin:auto;
+    
+}
